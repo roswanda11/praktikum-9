@@ -20,10 +20,10 @@
 
 contoh :
 
-                  if x < 5
-                  File "<stdin>", line 1
-                  if x < 5
-                  ^
+                    if x < 5
+                    File "<stdin>", line 1
+                    if x < 5
+                    ^
 
 SyntaxError : invalid syntax
 
@@ -49,9 +49,9 @@ adalah sebuah peristiwa, yang terjadi selama pelaksanaan program yang mengganggu
 
 contoh :
 
-                  print( 0 / 0)
-                  Traceback (most recent call last):
-                  File "<stdin>", line 1, in <module>
+                    print( 0 / 0)
+                    Traceback (most recent call last):
+                    File "<stdin>", line 1, in <module>
 
 ZeroDivisionError: integer division or modulo by zero
 
