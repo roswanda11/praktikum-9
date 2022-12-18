@@ -20,10 +20,10 @@
 
 contoh :
 
-                    if x < 5
-                    File "<stdin>", line 1
-                    if x < 5
-                    ^
+       if x < 5
+       File "<stdin>", line 1
+       if x < 5
+       ^
 
 SyntaxError : invalid syntax
 
@@ -48,10 +48,10 @@ adalah sebuah peristiwa, yang terjadi selama pelaksanaan program yang mengganggu
 - Bila kita membagi bilangan dengan nol akan muncul pesan ZeroDivisionError.
 
 contoh :
-
-                    print( 0 / 0)
-                    Traceback (most recent call last):
-                    File "<stdin>", line 1, in <module>
+       
+       print( 0 / 0)
+       Traceback (most recent call last):
+       File "<stdin>", line 1, in <module>                    
 
 ZeroDivisionError: integer division or modulo by zero
 
@@ -61,12 +61,12 @@ ZeroDivisionError: integer division or modulo by zero
 
 contoh :
 
-                    x = 10
-                    if x > 5:
-                    raise Exception('x should not exceed 5. The value of x was:
-                    {}'.format(x))
-                    Traceback (most recent call last):
-                    File "<input>", line 4, in <module>
+       x = 10
+       if x > 5:
+       raise Exception('x should not exceed 5. The value of x was:
+       {}'.format(x))
+       Traceback (most recent call last):
+       File "<input>", line 4, in <module>                    
                     
 Exception: x should not exceed 5. The value of x was: 10
 
@@ -78,18 +78,18 @@ Exception: x should not exceed 5. The value of x was: 10
 
 contoh :
 
-                    try:
-                    # kode
-                    except TipeEksepsi:
-                    # Penanganan kesalahan
+        try:
+        # kode
+        except TipeEksepsi
+        # Penanganan kesalahan                    
 
 contoh code :
 
-                    try:
-                    with open('file.log') as file:
-                    read_data = file.read()
-                    except FileNotFoundError as fnf_error:
-                    print(fnf_error)
+        try:
+        with open('file.log') as file:
+        read_data = file.read()
+        except FileNotFoundError as fnf_error:
+        print(fnf_error)
                     
 jika file.log tidak ditemukan maka akan muncul pesan error
 
